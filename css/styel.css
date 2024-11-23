@@ -3,7 +3,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;}
-
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 /* nav bar style here  */
 .nav-header{
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.137);
@@ -24,6 +26,7 @@
 display: flex;
 align-items: center;
 font-size: 2.2rem;
+font-weight: 800;
 }
 
 .nav-btn{
@@ -32,6 +35,7 @@ font-size: 2.2rem;
     font-size: 1rem;
     margin-right: 15px;
     cursor: pointer;
+    font-weight: 600;
 }
 
 .nav-fellow-btn{
@@ -39,7 +43,66 @@ font-size: 2.2rem;
     padding: 7px 15px;
     border-radius: 6px;
     margin-right: 0;
+   
 }  
 /* nav style end */  
 
+/* header style starts here */
+.header-container{
+    background-image: url(/resources/Group\ 14.png);
+    background-repeat: no-repeat;
+}
+.header-main{
+  
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.header-left{
+   
+    width: 50%;
+}
+.header-left-content p{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.header-right{
+   
+    width: 50%;
+}
 
+.header-right img{
+    width: 100% ;
+} 
+.play{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.goat{
+    font-size:  3.2rem;
+     background-image: linear-gradient(#F94882, #8758F1);
+     background-clip: text;
+     color: transparent;
+     font-weight: 700;
+     text-shadow:2px 2px rgba(0, 0, 0, 0.034) ;
+}
+
+.header-btn-1 , .header-btn-2{
+  padding:15px 20px ;  
+  border: none;
+  border-radius: 25px;
+  margin-top: 19px;
+  
+}
+.header-btn-1{
+    background-color: #FF42A5;
+    margin-right: 15px;
+}
+.header-btn-2{
+    background-color: #4Ec5f7;
+}
