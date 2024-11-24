@@ -27,8 +27,11 @@ display: flex;
 align-items: center;
 font-size: 2.2rem;
 font-weight: 800;
+cursor: pointer;
 }
-
+.nav-right{
+    display: flex;
+}
 .nav-btn{
     background-color: transparent;
     border: none;
@@ -97,6 +100,7 @@ font-weight: 800;
   border: none;
   border-radius: 25px;
   margin-top: 19px;
+  cursor: pointer;
   
 }
 .header-btn-1{
@@ -105,4 +109,7 @@ font-weight: 800;
 }
 .header-btn-2{
     background-color: #4Ec5f7;
-}
+} 
+/* header style end */ 
+
+/* online style here */ 
