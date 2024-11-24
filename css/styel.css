@@ -113,3 +113,32 @@ cursor: pointer;
 /* header style end */ 
 
 /* online style here */ 
+.online-main{
+  max-width: 1000px;
+  margin: 30px auto 0px;
+  display: grid;
+  grid-template-areas: "a b c d";
+  gap: 10px;
+ 
+}
+
+.online-card img{
+  width: 100%;
+}
+.card-1{
+   grid-area: a; 
+}
+.card-2{
+    grid-area: b; 
+}
+.card-3{
+    grid-area: c; 
+}
+.card-4{
+    grid-area: d; 
+}
+.online-card p{
+    font-size: 0.8rem;
+    
+    
+}
